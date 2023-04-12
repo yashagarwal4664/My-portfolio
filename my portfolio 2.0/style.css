@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Kanit:wght@300&family=Lato:wght@100&family=Nunito:wght@400;500&family=Playfair+Display&family=Unbounded:wght@300&family=Zeyada&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    background: rgb(250, 82, 82);
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    outline: solid white 0.15rem;
+    border-radius: 18px;
+    height: 98vh;
+    width: 90vw;
+    background-color: rgb(20, 25, 90);
+    display: flex;
+    flex-direction: column;
+   
+   
+  
+    
+    
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight:700;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    list-style-type: none;
+    color: white;
+    justify-content: flex-end;
+    margin-top: 6vh;
+    margin-right: 10vw;
+}
+nav ul .yash{
+    margin-right: 22vw;
+    font-size: 35px;
+    
+}
+nav ul .lets{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    background-color: #1f2e79;
+    width: 193px;
+    
+  
+
+}
+.RedText{
+    color: rgb(243, 91, 91);
+    font-size: 35px;
+    font-weight:700;
+}
+nav ul li{
+    padding:1px 40px ;
+    
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    
+    /* background-color: black; */
+    max-height: 98vh;
+    max-width: 90vw;;
+    
+}
+.my-info{
+    width: 23vw;
+    height: 76vh;
+    
+   
+    margin-left: 60px;
+    display: flex;
+  
+   flex-direction: column;
+   justify-content: center;
+   font-family: 'Ubuntu', sans-serif; 
+}
+.my-info1{
+    
+    color: rgb(160, 154, 154);
+    padding-bottom: 18px;
+    font-size: 20px;
+}
+.my-info2
+{
+  
+    font-size: 50px;
+    font-weight:700;
+    
+}
+.my-info3{
+    font-family: 'Unbounded', cursive;
+    margin-top: 30px;
+    color: antiquewhite;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 30;
+
+
+}
+.my-info4
+{ 
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    color: bisque;
+    /* justify-content: center; */
+    align-items: center;
+}
+.my-info2 p{
+    
+    color: white;
+}
+.RedText1{
+    color: rgb(243, 91, 91);
+}
+
+.resume{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 10vw;
+    height: 52px;
+    color: white;
+    background-color: rgb(253, 62, 37);
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+ .contact
+ {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    width: 10vw;
+    height: 52px;
+    color: white;
+    background-color: #1f2e79;
+    font-size: 20px;
+    font-weight: 700;
+
+ }
+
+.illustrator{
+    width: 53vw;
+    height: 81vh;
+    display: flex;
+    padding-left: 16vw;
+    justify-content: center;
+    align-items: center;
+}
+.illustrator img{
+    
+    height: 46vh;
+    width: 22vw;
+}
+.social{
+    /* background-color: aqua; */
+    width: 3vw;
+    height: 808px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.socialmedia
+{   
+    margin-top: 37vh;
+    /* background-color: rgb(2, 0, 3); */
+    height: 30vh;
+    width: 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+
+}
+
+.socialmedia i
+{   margin-top: 1vh;
+    width: 40px;
+    height: 30px;
+    padding-bottom: 1px;
+    margin-left: 3px;
+   
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.design{
+    height: 18vh;
+    width: 4px;
+    background-color: white;
+
+
+}
+.social2{
+    /* background-color: aqua; */
+    width: 3vw;
+    height: 808px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.socialmedia2
+{   
+    margin-top: 37vh;
+    /* background-color: blueviolet; */
+    height: 30vh;
+    width: 3vw;
+}
+.design2{
+    height: 18vh;
+    width: 4px;
+    background-color: white;
+    margin-right: 5vw;
+
+
+}
